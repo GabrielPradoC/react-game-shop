@@ -1,0 +1,21 @@
+.product-body{
+    width: 220px;
+    height: 270px;
+    border: 1px solid #000;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 6px;
+}
+
+.product-title, .product-price{
+    color: rgb(199, 199, 199);
+}
+
+.product-info{
+    height: 40px;   
+}
+.product-info br{
+    margin: 5px;
+}
