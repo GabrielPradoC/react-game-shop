@@ -1,11 +1,19 @@
 import './App.css';
-import ProductList from './components/ProductList';
+import { useState } from 'react';
+import Navbar from './components/Navbar/Navbar';
+import StoreBody from './components/StoreBody/StoreBody';
 const products = require('./products.json');
 
 function App() {
+
+  const [cart, setCart] = useState([]);
+
   return (
     <div className="App">
-      <ProductList products={products}/>
+      <Navbar products={cart} setCart={setCart}/>
+      <StoreBody products={products} 
+      cart={cart}
+      setCart={setCart}/>
     </div>
   );
 }
