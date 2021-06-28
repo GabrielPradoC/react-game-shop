@@ -1,0 +1,11 @@
+.cart-body img{
+    width: 55px;
+    height: 55px;
+    cursor: pointer;
+}
+
+.cart-body{
+    width: 55px;
+    height: 55px;
+    align-self: flex-end;
+}
