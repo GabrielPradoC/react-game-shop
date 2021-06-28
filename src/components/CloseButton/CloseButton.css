@@ -1,0 +1,17 @@
+.close-button{
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    border: none;
+    background-color: #f00;
+    border: 1px solid #f00;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.close-button:active{
+    color: #f00;
+    background-color: transparent;
+}
