@@ -1,0 +1,6 @@
+.product-list{
+    display: flex;
+    max-width: 85vw;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
