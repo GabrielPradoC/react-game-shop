@@ -1,14 +1,12 @@
-.filter-body{
+.sorter-body{
     width: 85vw;
     display: flex;
     margin-bottom: 15px;
-}
-
-.filter-body div{
-    align-self: flex-start;
+    color:rgb(199, 199, 199);
     padding-left: 5px;
 }
 
-.filter-label{
+.sorter-label{
     padding-right: 5px;
 }
+
