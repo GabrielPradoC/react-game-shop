@@ -44,7 +44,6 @@ const CartMenu = ({ products, setCart, toggleModal }) => {
         {cartIsEmpty && <h1>Carrinho vazio.</h1>}
       </div>
       <div className={styles['cart-modal-info']}>
-        {/* TODO add address or any other input field here */}
         <div className={styles['cart-modal-location']}>
           <label htmlFor="cartAddressStreet">
             Endereço:

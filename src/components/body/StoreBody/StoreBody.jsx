@@ -6,7 +6,9 @@ import Modal from '../../auxComponents/Modal/Modal';
 import AddToCartMenu from '../AddToCartMenu/AddToCartMenu';
 import sortFunc from '../../../auxFunctions/sortFunc';
 
-const StoreBody = ({ products, cart, setCart }) => {
+const StoreBody = ({
+  products, cart, setCart, setNotifications,
+}) => {
   const [clickedItem, setClickedItem] = useState({});
   const [sortOption, setSortOption] = useState('price');
   const [modal, setModal] = useState(false);
@@ -32,6 +34,7 @@ const StoreBody = ({ products, cart, setCart }) => {
       const newItem = { ...item, quantity: 1 };
       setCart((oldCart) => [...oldCart, newItem]);
     }
+    setNotifications((oldNotifications) => [...oldNotifications, 'Item adicionado ao carrinho!']);
   };
 
   return (

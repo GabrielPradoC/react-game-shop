@@ -1,0 +1,13 @@
+.notification-box-body{
+    position: fixed;
+    width: 350px;
+    height: 17%;
+    top: 0;
+    left: 7.5vw;
+    border: 3px solid rgb(6, 250, 6);
+    overflow-y: hidden;
+}
+
+.notification-box-body::-webkit-scrollbar{
+    display: none;
+}
